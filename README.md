@@ -10,8 +10,6 @@ Open the demo/demo.html in your favorite browser.
 npm install
 ```
 
-Step3 - Distribution
-
 ```
 webpack
 ```
