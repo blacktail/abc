@@ -1,0 +1,31 @@
+{
+  "name": "abc",
+  "version": "0.0.1",
+  "description": "component library based on react.js",
+  "main": "index.js",
+  "dependencies": {
+    "react-dom": "^0.14.2",
+    "react": "^0.14.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.1.2",
+    "babel-loader": "^6.1.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.1.3",
+    "babel-preset-es2015": "^6.1.2",
+    "babel-preset-react": "^6.1.2",
+    "webpack": "^1.12.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blacktail/abc.git"
+  },
+  "author": "mr.zhangping@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blacktail/abc/issues"
+  },
+  "homepage": "https://github.com/blacktail/abc#readme"
+}
