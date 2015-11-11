@@ -1,0 +1,15 @@
+.root {
+    border: solid 1px blueviolet;
+    border-radius: 4px;
+    background: yellow;
+
+    td {
+        div {
+            display: flex; /* demo for the autoprefixer*/
+            background: blue;
+            color: white;
+        }
+    }
+}
+
+
