@@ -2,11 +2,20 @@
 <html>
 <head>
     <title>Demo</title>
+    <script src="./react-with-addons.js"></script>
+    <script src="./react-dom.js"></script>
+    <script src="./babel.browser.min.js"></script>
 </head>
-<body>
-<div id="table-demo">
 
-</div>
-<script src="bundle.js" charset="utf-8"></script>
+<body>
+<div id="table-demo"></div>
+
+<!-- Here, import the Table component -->
+<script src="../dist/Table.js" charset="utf-8"></script>
+
+<script type="text/babel">
+    ReactDOM.render(<LMUI.Table></LMUI.Table>, document.getElementById('table-demo'));
+</script>
 </body>
+
 </html>

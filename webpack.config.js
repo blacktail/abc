@@ -1,8 +1,15 @@
+var path = require('path');
+
 module.exports = {
-    entry: './demo/demo.js',
+    context: path.join(__dirname,  'lib'),
+    entry: {
+        Table: './Table.js'
+    },
     output: {
-        path: __dirname + '/demo',
-        filename: 'bundle.js'
+        path: path.join(__dirname, 'dist'),
+        filename: '[name].js',
+        libraryTarget: 'umd',
+        library: ['LMUI']
     },
     module: {
         loaders: [
@@ -16,5 +23,13 @@ module.exports = {
                 }
             }
         ]
-    }
+    },
+    externals:[{
+        'react': {
+            root: 'React',
+            commonjs: 'react',
+            commonjs2: 'react',
+            amd: 'react'
+        }
+    }]
 };
